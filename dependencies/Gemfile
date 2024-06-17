@@ -14,4 +14,4 @@ gem "rubocop-performance", "~>1.19.1"
 
 
 gem "rubocop-rails", "~> 2.5"
-gem "rubocop-rspec", "~> 2.27.1"
+gem "rubocop-rspec", "~> 3.0.0"

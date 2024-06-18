@@ -124,9 +124,9 @@ jobs:
               body: "Successfully deployed to production"
             })
 
-      - name: Update issue success
+      - name: Update issue dailure
         uses: actions/github-script@v7
-        if: success()
+        if: failure()
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
